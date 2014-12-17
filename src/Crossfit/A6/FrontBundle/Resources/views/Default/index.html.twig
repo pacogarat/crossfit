@@ -1,0 +1,326 @@
+<!doctype html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html>
+	<head>
+
+		<!-- Basic Page Needs
+	  ================================================== -->
+		<meta charset="utf-8">
+		<title>CrossfitA6</title>
+		<meta name="description" content="CrossfitA6 crossfit en Las Rozas de Madrid">
+		<meta name="author" content="tupac">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- CSS
+	  ================================================== -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400,300' rel='stylesheet' type='text/css') }}">
+
+		<link rel='stylesheet' href="{{ asset('bundles/crossfita6front/css/bootstrap.css') }}">
+		<link rel='stylesheet' href="{{ asset('bundles/crossfita6front/css/flexslider.css') }}">
+		<link rel='stylesheet' href="{{ asset('bundles/crossfita6front/js/fancybox/jquery.fancybox.css') }}">
+		<link rel='stylesheet' href="{{ asset('bundles/crossfita6front/style.css') }}">
+		<link rel='stylesheet' href="{{ asset('bundles/crossfita6front/css/mediaqueries.css') }}">
+		<link rel='stylesheet' href="{{ asset('bundles/crossfita6front/colors/default.css') }}">
+
+		<link rel="shortcut icon" href="#">
+		<link rel="apple-touch-icon" href="#">
+		<link rel="apple-touch-icon" sizes="72x72" href="#">
+		<link rel="apple-touch-icon" sizes="114x114" href="#">
+
+		<script src="{{ asset('bundles/crossfita6front/js/modernizr.js') }}") }}"></script>
+
+
+			<!-- Hammer reload -->
+			  <script>
+				setInterval(function(){
+				  try {
+					if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+					ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+					ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+					ws.onmessage = function(){
+					  var links = document.getElementsByTagName('link');
+						for (var i = 0; i < links.length;i++) {
+						var link = links[i];
+						if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) {
+						  href = link.href.replace(/((&|\?)hammer=)[^&]+/,'');
+						  link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+						}
+					  }
+					}
+				  }catch(e){}
+				}, 1000)
+			  </script>
+			<!-- /Hammer reload -->
+
+	</head>
+<body class="home">
+<div id="mobile-bar">
+	<a class="menu-trigger" href="#mobilemenu"></a>
+	<h1 class="mob-title">Home</h1>
+</div>
+<div id="page">
+	<header id="header">
+		<div class="container">
+			<div class="col-sm-4">
+				<h1 id="logo"><a style="color:#f4f4f4;" class='current' href="index.html"><img style="width: 64px;margin-top: -14px;" src="{{ asset('/bundles/crossfita6front/pics/logo.png') }}" alt="CrossfitA6"/>CrossfitA6</a></h1>
+			</div>
+			<div class="col-sm-8">
+				{% include('@CrossfitA6Front/HomeBlocks/navigation.html.twig') %}
+			</div>
+		</div>
+	</header>
+
+	{% include('CrossfitA6FrontBundle:HomeBlocks:slider.html.twig') %}
+
+	<main id="main" class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="widget home-popular-classes">
+					<h3 class="s-title">Entrenamientos</h3>
+					<div class="row">
+						<div class="col-md-3 col-xs-6 item">
+							<a href="single-class.html">
+								<img src='{{ asset("bundles/crossfita6front/pics/all_levels.jpg") }}' width='700' height='504' alt='Placeholder Image' />
+								<div class="item-desc">
+									<h4>Todos los niveles</h4>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 col-xs-6 item">
+							<a href="single-class.html">
+								<img src='{{ asset("bundles/crossfita6front/pics/personal.jpg") }}' width='700' height='504' alt='Placeholder Image' />
+								<div class="item-desc">
+									<h4>Atención personal</h4>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 col-xs-6 item">
+							<a href="single-class.html">
+								<img src='{{ asset("bundles/crossfita6front/pics/group.jpg") }}' width='700' height='504' alt='Placeholder Image' />
+								<div class="item-desc">
+									<h4>Entrenamiento en grupo</h4>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-3 col-xs-6 item">
+							<a href="single-class.html">
+								<img src='{{ asset("bundles/crossfita6front/pics/gimnasio.jpg") }}' width='700' height='504' alt='Placeholder Image' />
+								<div class="item-desc">
+									<h4>El Box</h4>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="widget promo">
+	<div class="promo-inner group" style="background: url({{ asset("bundles/crossfita6front/pics/gimnasio.jpg") }}) no-repeat; background-position-y: -70pxpx;">
+		<h3>Apúntate en Diciembre y no pagues matrícula</h3>
+		<a class="button read-more" href="contact.html">inscribirme</a>
+	</div>
+</div>
+
+				<div class="row">
+					<div class="col-lg-9 col-sm-8">
+						<h3 class="s-title">Últimos Posts del Blog</h3>
+						<article class="row entry">
+	<div class="col-lg-1 visible-lg">
+		<time datetime="2013-10-10">26 <span>NOE</span></time>
+	</div>
+
+	<div class="col-md-12 col-lg-11">
+		<div class="entry-wrap">
+			<figure class="entry-thumb">
+				<a href="single.html"><img src="{{ asset("bundles/crossfita6front/pics/blog_1.jpg") }}" alt=""/></a>
+				<time datetime="2013-10-10" class="hidden-lg">26 <span>NOE</span></time>
+			</figure>
+
+			<div class="entry-content">
+				<h1 class="entry-title"><a href="single.html">Reebook Crossfit Invitational 2014: los nombres</a></h1>
+				<div class="entry-meta">
+					<span class="entry-categories">Posteado en: <a href="">fitness</a>, <a href="">crossfit</a></span>
+				</div>
+
+				<p>El próximo domingo 9 de noviembre se celebrará el Reebook Crossfit Invitational en San José, California.  El evento reunirá equipos de Europa, Australia, estados Unidos y Canadá, que se enfrentarán entre sí en una competición que no tiene mucho que ver con los Crossfit Games pero que mantendrá entretenidos a los fans de todo el mundo.</p>
+				<p>¿Qué es el Crossfit Invitational y por qué es importante?</p>
+				<br>
+				<a class="button read-more" href="single.html">Leer Más</a>
+			</div>
+		</div>
+	</div>
+</article>
+					</div>
+
+					<div class="col-lg-3 col-sm-4 sidebar">
+						<aside class="widget post-type">
+	<h3 class="s-title">Nuestros monitores</h3>
+	<div class="row">
+		<div class="col-sm-12 col-xs-6 item">
+			<a href="">
+				<img src='{{ asset("bundles/crossfita6front/pics/lore.jpg") }}' width='700' height='504' alt='Placeholder Image' />
+				<div class="item-desc">
+					<h4>La Lore</h4>
+					<b>Personal trainer</b>
+				</div>
+			</a>
+		</div>
+
+		<div class="col-sm-12 col-xs-6 item">
+			<a href="">
+				<img src='{{ asset("bundles/crossfita6front/pics/espana.jpg") }}' width='700' height='504' alt='Placeholder Image' />
+				<div class="item-desc">
+					<h4>España</h4>
+					<b>Weight trainer</b>
+				</div>
+			</a>
+		</div>
+	</div>
+</aside>
+
+						<aside class="widget widget_ci_schedule_widget three columns"><h3 class="widget-title"><span>Horario</span></h3>			<table class="opening-hours">
+	<tbody><tr>
+		<th>Lunes a jueves</th>
+		<td>8am - 8pm</td>
+	</tr>
+	<tr>
+		<th>Viernes</th>
+		<td>8am - 6pm</td>
+	</tr>
+	<tr>
+		<th>Sábado</th>
+		<td>10am - 4pm</td>
+	</tr>
+	<tr>
+		<th>Domingo</th>
+		<td>12pm - 2pm</td>
+	</tr>
+	</tbody></table>
+</aside>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 col-xs-12">
+				<aside class="widget widget_text group">
+	<h3 class="widget-title">BOX</h3>
+	<p>Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus.</p>
+</aside><!-- /widget -->
+			</div>
+			<div class="col-sm-3 col-xs-12">
+				<aside class="widget widget_ci_about group">
+	<h3 class="widget-title">WOD</h3>
+	<div class="widget_about group">
+		<img src="http://placehold.it/100x100" class="alignleft" alt="about me">
+		Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida.
+	</div>
+</aside>
+			</div>
+			<div class="col-sm-3 col-xs-12">
+				<aside class="widget widget_ci_twitter_widget group">
+	<h3 class="widget-title">Campeonatos</h3>
+
+	<div class="twitter_update_list">
+		<ul>
+
+			<li>
+				<span>Nulla at nulla justo, eget luctus tortor. Nulla facilisi.</span>
+				<a class="twitter-time" href="#">hace 11 horas</a>
+			</li>
+
+			<li>
+				<span>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante.</span>
+				<a class="twitter-time" href="#">hace 5 horas</a>
+			</li>
+		</ul>
+	</div>
+</aside>
+			</div>
+			<div class="col-sm-3 col-xs-12">
+				<aside class="widget widget_search group">
+	<h3 class="widget-title">Buscar</h3>
+
+<form action="/" method="get" role="search" class="searchform">
+	<div>
+		<label class="screen-reader-text">Busqueda:    </label>
+		<input type="text" class="s" name="s" value="" placeholder="Search">
+		<input type="submit" value="IR" class="searchsubmit">
+	</div>
+</form>
+</aside>
+				<aside class="widget widget_text group">
+	<h3 class="widget-title">Condiciones legales</h3>
+	<p>Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus.</p>
+</aside><!-- /widget -->
+			</div>
+		</div>
+		<hr/>
+		<div class="credits">
+			<div class="row">
+				<div class="col-sm-6">
+					<p> © 2014 CrossFit A6 - Box de CrossFit en Las Rozas</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer>
+</div> <!-- #page -->
+
+<div id="mobilemenu" class="mm-menu">
+	<ul class="group">
+		<li class='current'>
+			<a class='current' href="index.html">Home</a>
+		</li>
+		<li>
+			<a href="blog.html">Blog</a>
+			<ul>
+				<li><a href="single.html">Single Article</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="template-staff-3col.html">Staff Listing</a>
+			<ul>
+				<li><a href="template-staff-2col.html">Staff 2 Columns</a></li>
+				<li><a href="template-staff-3col.html">Staff 3 Columns</a>
+				<li><a href="template-staff-4col.html">Staff 4 Columns</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="template-classes-3col.html">Class Listing</a>
+			<ul>
+				<li><a href="template-classes-2col.html">Classes 2 Columns</a></li>
+				<li><a href="template-classes-3col.html">Classes 3 Columns</a>
+				<li><a href="template-classes-4col.html">Classes 4 Columns</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="contact.html">Contact</a>
+		</li>
+	</ul>
+</div>
+<!-- Javascript
+================================================== -->
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<script src="{{ asset('/bundles/crossfita6front/js/jquery-1.10.1.min.js') }}"></script>
+<script src="{{ asset('/bundles/crossfita6front/js/superfish.js') }}"></script>
+<script src="{{ asset('/bundles/crossfita6front/js/jquery.flexslider-min.js') }}"></script>
+<script src="{{ asset('/bundles/crossfita6front/js/jquery.mmenu.min.js') }}"></script>
+<script src="{{ asset('/bundles/crossfita6front/js/fancybox/jquery.fancybox.pack.js') }}"></script>
+<script src="{{ asset('/bundles/crossfita6front/js/contact.js') }}"></script>
+<script src="{{ asset('/bundles/crossfita6front/js/scripts.js') }}"></script>
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="{{ asset('/bundles/crossfita6front/js/selectivizr-min.js') }}"></script>
+<![endif]-->
+</body>
+</html>

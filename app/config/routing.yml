@@ -1,0 +1,12 @@
+crossfit_a6_back:
+    resource: "@CrossfitA6BackBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+crossfit_a6_front:
+    resource: "@CrossfitA6FrontBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
