@@ -46,9 +46,9 @@ jQuery(document).ready(function($) {
 
 function map_init() {
 	'use strict';
-	var myLatlng = new google.maps.LatLng(33.59,-80);
+	var myLatlng = new google.maps.LatLng(40.492694,-3.867306);
 	var mapOptions = {
-		zoom: 8,
+		zoom: 17,
 		center: myLatlng,
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	};

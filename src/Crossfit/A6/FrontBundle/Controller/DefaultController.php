@@ -9,10 +9,28 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/")
+     * @Route("/", name="index")
      * @Template()
      */
     public function indexAction()
+    {
+        return array('name' => 'crossfit');
+    }
+
+    /**
+     * @Route("/contacto", name="contact")
+     * @Template()
+     */
+    public function contactAction()
+    {
+        return array('name' => 'crossfit');
+    }
+
+    /**
+     * @Route("/entrena-con-nosotros", name="training")
+     * @Template()
+     */
+    public function trainingAction()
     {
         return array('name' => 'crossfit');
     }

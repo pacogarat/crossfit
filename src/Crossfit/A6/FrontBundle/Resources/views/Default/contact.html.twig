@@ -1,0 +1,69 @@
+{% extends('@CrossfitA6Front/Default/index.html.twig') %}
+{% block class_body %}{% endblock %}
+{% block slideshow %}{% endblock %}
+{% block title %}
+<div id="page-title">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Contacto</h2>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block main %}
+    <main id="main" class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="map"></div>
+            </div>
+
+            <div class="col-lg-9 col-sm-8">
+                <article class="entry">
+                    <div class="entry-content">
+                        <h1 class="entry-title">Conatacta con nosotros</h1>
+
+                        <div id="done"><div class="wrap"><h2>Gracias por tu mensaje! Te responderemos lo antes posible!</h2></div></div>
+
+                        <form id="cform" class="contact" action="contact.php">
+                            <p>
+                                <label for="name">Tu Nombre:</label>
+                                <input type="text" id="name" name="name"/>
+                            </p>
+
+                            <p>
+                                <label for="email">Tu Email:</label>
+                                <input type="email" id="email" name="email"/>
+                            </p>
+
+                            <p>
+                                <label for="subject">Asunto:</label>
+                                <input type="text" id="subject" name="subject"/>
+                            </p>
+
+                            <p>
+                                <label for="message">Mensaje</label>
+                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                            </p>
+
+                            <p><input id="contact-submit" type="submit" value="Enviar" class="button"/></p>
+                        </form>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-lg-3 col-sm-4 sidebar">
+                <aside class="widget widget_text group">
+                    <h3 class="widget-title">Síguenos</h3>
+                    <p>Entérate de las ultimas noticias de patatin patatan y se el primero en apuntarte a las clases especiales que patatín patatán</p>
+                    <p>
+                        <a href="https://twitter.com/crossfita6"><img src="{{ asset('bundles/crossfita6front/Retro/56/Twitter2.png')}}"></a>
+                        <a href="https://www.facebook.com/crossfitA6"><img src="{{ asset('bundles/crossfita6front/Retro/56/Facebook.png')}}"></a>
+                    </p>
+                </aside><!-- /widget -->
+            </div>
+        </div>
+    </main>
+{% endblock %}
