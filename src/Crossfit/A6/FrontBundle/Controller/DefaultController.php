@@ -34,4 +34,13 @@ class DefaultController extends Controller
     {
         return array('name' => 'crossfit');
     }
+
+    /**
+     * @Route("/clases-y-horarios", name="classes")
+     * @Template()
+     */
+    public function classesAction()
+    {
+        return array('name' => 'crossfit');
+    }
 }
