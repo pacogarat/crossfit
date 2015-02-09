@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" name="Default" comment="" />
+    <list default="true" id="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig" />
+    </list>
     <ignored path="crossfit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <file path="/Dummy.txt" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423509864546" ignored="false" />
-    <file path="/training.html.twig" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423514189655" ignored="false" />
+    <file path="/training.html.twig" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423519552835" ignored="false" />
     <file path="/navigation.html.twig" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423516241665" ignored="false" />
     <file path="/index.html.twig" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423512035062" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -106,12 +108,11 @@
       <file leaf-file-name="training.html.twig" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="108" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.10989011">
+            <state line="66" column="125" selection-start="3076" selection-end="3076" vertical-scroll-proportion="0.72527474">
               <folding>
                 <element signature="e#708#731#0" expanded="true" />
                 <element signature="e#944#964#0" expanded="true" />
                 <element signature="e#1114#1144#0" expanded="true" />
-                <element signature="e#2933#2997#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -447,6 +448,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crossfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crossfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crossfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crossfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crossfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Crossfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="A6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FrontBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -717,12 +794,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="108" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.10989011">
+        <state line="66" column="125" selection-start="3076" selection-end="3076" vertical-scroll-proportion="0.72527474">
           <folding>
             <element signature="e#708#731#0" expanded="true" />
             <element signature="e#944#964#0" expanded="true" />
             <element signature="e#1114#1144#0" expanded="true" />
-            <element signature="e#2933#2997#0" expanded="true" />
           </folding>
         </state>
       </provider>
