@@ -14,7 +14,9 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return array('name' => 'crossfit');
+        return array(
+            'menu' => 'index',
+            'name' => 'crossfit');
     }
 
     /**
@@ -23,7 +25,9 @@ class DefaultController extends Controller
      */
     public function contactAction()
     {
-        return array('name' => 'crossfit');
+        return array(
+            'menu' => 'contact',
+            'name' => 'crossfit');
     }
 
     /**
@@ -32,7 +36,9 @@ class DefaultController extends Controller
      */
     public function trainingAction()
     {
-        return array('name' => 'crossfit');
+        return array(
+            'menu' => 'training',
+            'name' => 'crossfit');
     }
 
     /**
@@ -41,6 +47,8 @@ class DefaultController extends Controller
      */
     public function classesAction()
     {
-        return array('name' => 'crossfit');
+        return array(
+            'menu' => 'classes',
+            'name' => 'crossfit');
     }
 }

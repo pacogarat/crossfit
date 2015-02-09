@@ -1,16 +1,16 @@
 <div id="mobilemenu" class="mm-menu">
     <ul class="group">
-        <li class='current'>
-            <a class='current' href="index.html">Inicio</a>
+        <li class="{% if menu == 'index' %}current{% endif %}" >
+            <a href="{{ url('index') }}">Inicio</a>
         </li>
-        <li>
-            <a href="blog.html">Entrana con nosotros</a>
+        <li class="{% if menu=="training" %}current{% endif %}">
+            <a href="{{ url('training') }}">Entrena con nosotros</a>
         </li>
-        <li>
-            <a href="template-staff-3col.html">Horarios y tarifas</a>
+        <li class="{% if menu == 'classes' %}current{% endif %}">
+            <a href="{{ url('classes') }}">Clases y Horarios</a>
         </li>
-        <li>
-            <a href="contact.html">Contacto</a>
+        <li class="{% if menu == 'contact' %}current{% endif %}" >
+            <a href="{{ url('contact') }}">Contacto</a>
         </li>
     </ul>
 </div>

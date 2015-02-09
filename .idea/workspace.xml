@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/classes.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crossfit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <file path="/Dummy.txt" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423509864546" ignored="false" />
     <file path="/training.html.twig" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423514189655" ignored="false" />
-    <file path="/navigation.html.twig" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423511713854" ignored="false" />
+    <file path="/navigation.html.twig" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423516241665" ignored="false" />
     <file path="/index.html.twig" changelist="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" time="1423512035062" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,15 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HTML/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,7 +65,7 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="27" selection-start="952" selection-end="952" vertical-scroll-proportion="-22.041666">
+            <state line="41" column="5" selection-start="931" selection-end="931" vertical-scroll-proportion="-15.791667">
               <folding />
             </state>
           </provider>
@@ -95,7 +83,16 @@
       <file leaf-file-name="navigation.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.25">
+            <state line="2" column="0" selection-start="54" selection-end="614" vertical-scroll-proportion="-1.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobilemenu.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="35" selection-start="375" selection-end="375" vertical-scroll-proportion="0.21466905">
               <folding />
             </state>
           </provider>
@@ -110,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="training.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="training.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="57" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.10989011">
+            <state line="34" column="57" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-2.5">
               <folding>
                 <element signature="e#708#731#0" expanded="true" />
                 <element signature="e#944#964#0" expanded="true" />
@@ -151,11 +148,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig" />
         <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/classes.html.twig" />
         <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig" />
+        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig" />
+        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig" />
       </list>
     </option>
   </component>
@@ -165,7 +163,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1416" />
-    <option name="y" value="-4" />
+    <option name="y" value="-772" />
     <option name="width" value="1316" />
     <option name="height" value="772" />
   </component>
@@ -453,44 +451,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crossfit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crossfit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Crossfit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FrontBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -564,15 +524,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1416" y="-4" width="1316" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="1416" y="-772" width="1316" height="772" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25984251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25984251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -659,11 +619,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -726,20 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="27" selection-start="952" selection-end="952" vertical-scroll-proportion="-22.041666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="72" selection-end="72" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="37" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-2.5">
@@ -759,13 +700,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="57" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.10989011">
+        <state line="34" column="57" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-2.5">
           <folding>
             <element signature="e#708#731#0" expanded="true" />
             <element signature="e#944#964#0" expanded="true" />
             <element signature="e#1114#1144#0" expanded="true" />
             <element signature="e#2933#2997#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="5" selection-start="931" selection-end="931" vertical-scroll-proportion="-15.791667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="54" selection-end="614" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="35" selection-start="375" selection-end="375" vertical-scroll-proportion="0.21466905">
+          <folding />
         </state>
       </provider>
     </entry>
