@@ -1,3 +1,35 @@
+.border-image img {
+	border: 1px solid black;
+}
+.dictionary strong {
+	margin-right: 10px;
+}
+.dictionary h2,.ejercicios h2 {
+	text-align: center !important;
+}
+.ejercicios a:hover {
+	font-weight: bold;
+}
+.ejercicios .col-sm-3 > div {
+	margin-bottom: 10px;
+}
+.ejercicios a:visited {
+	color: darkblue;
+}
+.ejercicios a {
+	text-decoration: none;
+	margin: 2px;
+	text-transform: uppercase;
+	color: black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: block;
+	text-align: center !important;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 0 0 3px 1px #333 inset;
+	border: 1px solid black;
+}
 /* -----------------------------------------
    Theme Specific Media Queries
 ----------------------------------------- */

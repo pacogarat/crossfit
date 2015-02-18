@@ -1,0 +1,81 @@
+{% extends('@CrossfitA6Front/Default/index.html.twig') %}
+{% block class_body %}{% endblock %}
+{% block slideshow %}{% endblock %}
+{% block title %}
+<div style="margin-top:20px;" class="container">
+    <div class="row">
+        <div class="col-md-4 col-xs-6 item">
+            <a style="{% if submenu == "que_es" %}color:#FFCC00;{% endif %}" href="{{ path('crossfit') }}">
+               <div style="position: relative;" class="item-desc">
+                    <h4>¿Qué es crossfit?</h4>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-xs-6 item">
+            <a style="{% if submenu == "ejercicios" %}color:#FFCC00;{% endif %}"  href="{{ path('ejercicios') }}">
+               <div style="position: relative;" class="item-desc">
+                    <h4>Ejercicios</h4>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4 col-xs-6 item">
+            <a href="{{ path('diccionario') }}"style="{% if submenu == "diccionario" %}color:#FFCC00;{% endif %}" >
+               <div class="item-desc" style="position: relative;">
+                    <h4>Diccionario de crossfit</h4>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block main %}
+    <main id="main" style="padding-bottom: 20px;" class="container">
+        <div class="row list">
+            <h2>¿Qué es crossfit?</h2>
+            <div class="border-image" class="col-sm-12">
+                <p class="col-sm-9">
+                    Crossfit es un entrenamiento de preparación física especifico para mejorar la condicion fisica de las personas. En CrossFit nos basamos en ejercicios constantemente variados, realizados a alta intensidad, gran parte de estos ejercicios incluyen movimientos específicos  de distintas disciplinas deportivas (halterofilia, gimnasia, atletismo, etc..), y requiere : fuerza, velocidad ,flexibilidad, potencia, coordinación, agilidad, equilibrio ,precisión y sobre todo resistencia cardiovascular.
+                </p>
+                <p class="col-sm-2" style="float:right;">
+                    <img src="{{ asset('bundles/crossfita6front/images/que_es.jpg') }}"/>
+                </p>
+                <br>
+            </div>
+        </div>
+        <div class="row list">
+            <div class="border-image" class="col-sm-12">
+                <h2>En Crossfit A6 podéis llegar a mejorar en todos estos aspectos y mucho mas:</h2>
+                <p class="col-sm-3" >
+                    <img style="margin-top:30px;" src="{{ asset('bundles/crossfita6front/images/que_es_2.jpg') }}"/>
+                </p>
+                <ul class="col-sm-9">
+                    <li>Preparamos a las personas para que puedan mejorar en otras disciplinas y sentirse mejor en su día a día.</li>
+                    <li>Ahorra tiempo. Se ha demostrado científicamente que requiere menos tiempo para obtener resultados superiores a otros métodos de entrenamiento.</li>
+                    <li>En <strong>Crossfit A6</strong> ayudamos a mejorar la capacidad de las personas para aprender nuevos movimientos y habilidades.</li>
+                    <li>Con este entrenamiento y una dieta equilibrada veras como la pérdida de peso y la definición muscular son resultados físicos garantizados, que normalmente se producen a las pocas  semanas de empezar. Pero no sólo mejoras físicamente, también empezarás a sentirte mejor emocionalmente.</li>
+                    <li>Los entrenamientos de Crossfit son ejercicios en grupos reducidos y ajustados según la capacidad de cada participante, que permite a todos realizar ejercicios similares, independientemente de la edad, forma física y experiencia.</li>
+                </ul>
+                <p>Además CrossFit crea un espíritu de comunidad que no encuentras en otros deportes o gimnasios. La superación personal de cada uno y la experiencia en común se comparte de forma muy positiva.</p>
+                <p>Una de las premisas del Crossfit es que sea variado, para evitar la rutina de los gimnasios tradicionales (de hecho uno de los lemas del Crossfit es: <strong>"Nosotros no utilizamos máquinas, creamos máquinas").</strong></p>
+                <p>Por eso, se entrenan con todo tipo de accesorios, desde kettlebells (también conocidas como pesas rusas), sogas para trepar hasta el techo y hasta llantas de camiones.</p>
+            </div>
+        </div>
+        <div class="row list">
+            <div class="border-image" class="col-sm-12">
+                <h2>¿Por qué es para mí?</h2>
+                <p>¿Por qué? Por qué CrossFit está diseñado para ser aplicado a todos los niveles y todas las edades, desde personas con problemas cardiacos hasta deportistas de alto nivel. Una de sus bases radica en el principio de individualización, que sígnifica que cada entrenamiento es único para cada persona. El CrossFit adapta el entrenamiento a las necesidades de cada uno.</p>
+                <p>Existe una progresión de las cargas e intensidad según la forma física de cada persona asegurando siempre que está trabajando de forma correcta. Ni más de lo que puede soportar, imprescindible para permitir su desarrollo, ni menos de lo que realmente es capaz de hacer, para que exista una mejora en su forma física.</p>
+                <p>En el CrossFit tú mismo decides el nivel de esfuerzo e intensidad al que tu cuerpo es capaz de trabajar, ya que la mayoría de entrenamientos te dan vía libre para realizar el número de repeticiones que tu cuerpo pueda ejecutar o bien disponer del tiempo necesario que tu necesites para terminar el entrenamiento. Sin presiones, tu pones tu propio límite.</p>
+            </div>
+        </div>
+        <div class="row list">
+            <div class="border-image" class="col-sm-12">
+                <h2>¿Qué me proporciona?</h2>
+                <p>Su gran abanico de posibilidades mejora al individuo en todas sus facetas físicas: resistencia cardiovascular, resistencia muscular, fuerza, flexibilidad, potencia, velocidad, coordinación, agilidad, equilibrio y precisión. Su filosofía se basa en evitar la especialización e incidir desarrollo multilateral de todo el cuerpo.</p>
+                <p>Gusta a todo el mundo que lo practica de todas las edades porque sus entrenamientos se caracterizan por ser rápidos, divertidos y siempre diferentes, así que nunca te aburrirás. La filosofía CrossFit tiene como objetivo llevarte a la mejor condición física y mental a la que puedes aspirar, no se espera que seas el mejor atleta del mundo, si no que seas la mejor versión de ti mismo.</p>
+                <p>Eso sí, en el CrossFit hay que esforzarse y trabajar, nada llega solo mirando sentado desde una silla. El CrossFit necesita que muevas tu cuerpo, que para eso fue creado.</p>
+            </div>
+        </div>
+    </main>
+{% endblock %}
