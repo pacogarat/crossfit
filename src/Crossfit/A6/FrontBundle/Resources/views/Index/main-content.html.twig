@@ -1,28 +1,32 @@
 
 <div class="col-lg-9 col-sm-8">
     <h3 class="s-title">Últimos Posts del Blog</h3>
-    <article class="row entry">
+    <article class="row entry"  ng-repeat="post in fb_posts">
         <div class="col-lg-1 visible-lg">
             <time datetime="2013-10-10">26 <span>NOE</span></time>
         </div>
 
         <div class="col-md-12 col-lg-11">
-            <div class="entry-wrap">
-                <figure class="entry-thumb">
-                    <a href="single.html"><img src="{{ asset("bundles/crossfita6front/pics/blog_1.jpg") }}" alt=""/></a>
+            <div class="row entry-wrap" >
+                <figure class="col-md-1 entry-thumb">
+                    <a ng-href="{[{post.link}]}">
+                    </a>
                     <time datetime="2013-10-10" class="hidden-lg">26 <span>NOE</span></time>
                 </figure>
 
-                <div class="entry-content">
-                    <h1 class="entry-title"><a href="single.html">Reebook Crossfit Invitational 2014: los nombres</a></h1>
-                    <div class="entry-meta">
-                        <span class="entry-categories">Posteado en: <a href="">fitness</a>, <a href="">crossfit</a></span>
+                <div class="col-md-11 entry-content">
+                    <div class="col-md-3">
+                        <img ng-if="post.picture == null" src="{{ asset("bundles/crossfita6front/pics/blog_1.jpg") }}" alt=""/>
+                        <img ng-if="post.picture != null" ng-src="{[{post.picture}]}" alt=""/>
                     </div>
-
-                    <p>El próximo domingo 9 de noviembre se celebrará el Reebook Crossfit Invitational en San José, California.  El evento reunirá equipos de Europa, Australia, estados Unidos y Canadá, que se enfrentarán entre sí en una competición que no tiene mucho que ver con los Crossfit Games pero que mantendrá entretenidos a los fans de todo el mundo.</p>
-                    <p>¿Qué es el Crossfit Invitational y por qué es importante?</p>
-                    <br>
-                    <a class="button read-more" href="single.html">Leer Más</a>
+                    <div class="col-md-9">
+                        <h1 class="entry-title"><a ng-href="post.link">{[{post.story}]}</a></h1>
+                        <div class="entry-meta">
+                            <span class="entry-categories">Posteado en: <a href="#">fitness</a>, <a href="#">crossfit</a></span>
+                            <p>{[{post.message}]}</p>
+                        </div>
+                        <a class="button read-more" ng-href="{[{post.link}]}">Leer Más</a>
+                    </div>
                 </div>
             </div>
         </div>
