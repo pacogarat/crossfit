@@ -52,7 +52,7 @@
         #}
 
 	</head>
-<body ng-controller="MainCtrl" class="{% block class_body %}home{% endblock %}">
+<body ng-controller="{% block ngController %}MainCtrl{% endblock %}" class="{% block class_body %}home{% endblock %}">
 <div id="mobile-bar">
 	<a class="menu-trigger" href="#mobilemenu"></a>
 	<h1 class="mob-title">Home</h1>

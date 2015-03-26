@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25eb6b6b-a7b5-4a68-aa78-6828ebe0c962" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/public/app/module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/crossfita6front" afterPath="$PROJECT_DIR$/web/bundles/crossfita6front" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/fosjsrouting" afterPath="$PROJECT_DIR$/web/bundles/fosjsrouting" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/framework" afterPath="$PROJECT_DIR$/web/bundles/framework" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bundles/sensiodistribution" afterPath="$PROJECT_DIR$/web/bundles/sensiodistribution" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/gallery.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/gallery.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/js-bottom.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/js-bottom.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Index/main-content.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Index/main-content.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/symfony2.xml" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/public/app/module.js" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/public/app/module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig" afterPath="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crossfit.iws" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5833333" vertical-offset="634" max-vertical-offset="1515">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="-35.458332" vertical-offset="574" max-vertical-offset="1515">
+              <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -59,8 +56,8 @@
       <file leaf-file-name="module.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/public/app/module.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -86,12 +83,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-content.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main-content.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Index/main-content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40268457" vertical-offset="0" max-vertical-offset="894">
-              <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="600">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="405">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="e#711#718#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobilemenu.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="405">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="e#155#160#0#Twig" expanded="true" />
+                <element signature="e#286#294#0#Twig" expanded="true" />
+                <element signature="e#435#442#0#Twig" expanded="true" />
+                <element signature="e#581#589#0#Twig" expanded="true" />
+                <element signature="e#718#725#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/gallery.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5704698" vertical-offset="0" max-vertical-offset="894">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+              <folding>
+                <element signature="e#445#483#0#HTML" expanded="true" />
+                <element signature="e#843#867#0#HTML" expanded="true" />
+                <element signature="e#894#1018#0#HTML" expanded="true" />
+                <element signature="e#1473#1497#0#HTML" expanded="true" />
+                <element signature="e#1524#1640#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,26 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="165">
               <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="widget-popular-classes.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Index/widget-popular-classes.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="630">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slider.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/slider.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="525">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -146,15 +167,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/js-bottom.html.twig" />
         <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/public/bower_components/ng-facebook/ngFacebook.js" />
+        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Index/main-content.html.twig" />
+        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig" />
+        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig" />
         <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/public/app/module.js" />
-        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Index/main-content.html.twig" />
+        <option value="$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/gallery.html.twig" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
+    <option name="x" value="1975" />
     <option name="y" value="24" />
     <option name="width" value="1865" />
     <option name="height" value="1056" />
@@ -185,6 +209,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -627,7 +652,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -688,7 +712,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="24" width="1865" height="1056" extended-state="6" />
+    <frame x="1975" y="24" width="1865" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -699,19 +723,19 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26933625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27482173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -964,13 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/training.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -982,20 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/gallery.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="420">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1090,27 +1093,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/navigation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="405">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#711#718#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/HomeBlocks/mobilemenu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="405">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#155#160#0#Twig" expanded="true" />
+            <element signature="e#286#294#0#Twig" expanded="true" />
+            <element signature="e#435#442#0#Twig" expanded="true" />
+            <element signature="e#581#589#0#Twig" expanded="true" />
+            <element signature="e#718#725#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/public/app/module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5833333" vertical-offset="634" max-vertical-offset="1515">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="-35.458332" vertical-offset="574" max-vertical-offset="1515">
+          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Index/main-content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40268457" vertical-offset="0" max-vertical-offset="894">
-          <caret line="24" column="107" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="600">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crossfit/A6/FrontBundle/Resources/views/Default/gallery.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5704698" vertical-offset="0" max-vertical-offset="894">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="e#445#483#0#HTML" expanded="true" />
+            <element signature="e#843#867#0#HTML" expanded="true" />
+            <element signature="e#894#1018#0#HTML" expanded="true" />
+            <element signature="e#1473#1497#0#HTML" expanded="true" />
+            <element signature="e#1524#1640#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

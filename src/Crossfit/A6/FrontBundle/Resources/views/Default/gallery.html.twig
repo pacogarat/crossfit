@@ -1,12 +1,14 @@
 {% extends('@CrossfitA6Front/Default/index.html.twig') %}
 {% block class_body %}{% endblock %}
 {% block slideshow %}{% endblock %}
+{% block ngController %}GalleryCtrl{% endblock %}
 {% block title %}
 <div id="page-title">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2>Galería</h2>
+                <h2 class="col-md-3" ng-click="selected_album=null;">Galería</h2>
+                <h2 ng-click="selected_album=null;" style="color: black; cursor: pointer;" class="col-md-2 pull-right">Volver</h2>
             </div>
         </div>
     </div>
@@ -15,76 +17,23 @@
 
 {% block main %}
     <main id="main" class="container">
-        <div class="row list">
-            <div class="col-sm-3 col-xs-6 item">
-                <a href="single-staff.html">
-                    <img src="http://placehold.it/700x504" width="700" height="504" alt="Placeholder Image">
+        <div ng-if="selected_album == null" class="row list">
+            <div ng-repeat="album in albums" class="col-sm-3 col-xs-6 item">
+                <a ng-click="getPhotosFromAlbum(album)" style="cursor: pointer;">
+                    <div style="background: url({[{ album | album_cover}]}); height: 169px;   background-repeat: no-repeat;background-position: 50%;"></div>
                     <div class="item-desc">
-                        <h4>Alice Atkinson</h4>
-                        <b>Personal Trainer</b>
+                        <h4>{[{album.name}]}</h4>
+                        <b>{[{album.count}]} imágenes</b>
                     </div>
                 </a>
             </div>
-            <div class="col-sm-3 col-xs-6 item">
-                <a href="single-staff.html">
-                    <img src="http://placehold.it/700x504" width="700" height="504" alt="Placeholder Image">
+        </div>
+        <div ng-if="selected_album != null" class="row list" >
+            <div ng-repeat="photo in selected_album" class="col-sm-3 col-xs-6 item" >
+                <a ng-href="{[{ photo.link }]}" target="_blank" style="cursor: pointer;">
+                    <div style="height: 169px; background: url({[{ photo.source }]}); background-repeat: no-repeat;background-position: 50%;"></div>
                     <div class="item-desc">
-                        <h4>Alice Atkinson</h4>
-                        <b>Personal Trainer</b>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3 col-xs-6 item">
-                <a href="single-staff.html">
-                    <img src="http://placehold.it/700x504" width="700" height="504" alt="Placeholder Image">
-                    <div class="item-desc">
-                        <h4>Alice Atkinson</h4>
-                        <b>Personal Trainer</b>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3 col-xs-6 item">
-                <a href="single-staff.html">
-                    <img src="http://placehold.it/700x504" width="700" height="504" alt="Placeholder Image">
-                    <div class="item-desc">
-                        <h4>Alice Atkinson</h4>
-                        <b>Personal Trainer</b>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3 col-xs-6 item">
-                <a href="single-staff.html">
-                    <img src="http://placehold.it/700x504" width="700" height="504" alt="Placeholder Image">
-                    <div class="item-desc">
-                        <h4>Alice Atkinson</h4>
-                        <b>Personal Trainer</b>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3 col-xs-6 item">
-                <a href="single-staff.html">
-                    <img src="http://placehold.it/700x504" width="700" height="504" alt="Placeholder Image">
-                    <div class="item-desc">
-                        <h4>Alice Atkinson</h4>
-                        <b>Personal Trainer</b>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3 col-xs-6 item">
-                <a href="single-staff.html">
-                    <img src="http://placehold.it/700x504" width="700" height="504" alt="Placeholder Image">
-                    <div class="item-desc">
-                        <h4>Alice Atkinson</h4>
-                        <b>Personal Trainer</b>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3 col-xs-6 item">
-                <a href="single-staff.html">
-                    <img src="http://placehold.it/700x504" width="700" height="504" alt="Placeholder Image">
-                    <div class="item-desc">
-                        <h4>Alice Atkinson</h4>
-                        <b>Personal Trainer</b>
+                        <b>{[{photo.created_time | fb_date | date:"d/MMM/yy" }]}</b>
                     </div>
                 </a>
             </div>

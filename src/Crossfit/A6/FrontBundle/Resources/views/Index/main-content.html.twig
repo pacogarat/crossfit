@@ -3,7 +3,7 @@
     <h3 class="s-title">Últimos Posts del Blog</h3>
     <article class="row entry"  ng-repeat="post in fb_posts">
         <div class="col-lg-1 visible-lg">
-            <time datetime="2013-10-10">26 <span>NOE</span></time>
+            <time datetime="2013-10-10">{[{post.created_time | fb_date | date:"d"}]}<span>{[{post.created_time | fb_date | date:"MMM"}]}</span></time>
         </div>
 
         <div class="col-md-12 col-lg-11">
@@ -11,21 +11,22 @@
                 <figure class="col-md-1 entry-thumb">
                     <a ng-href="{[{post.link}]}">
                     </a>
-                    <time datetime="2013-10-10" class="hidden-lg">26 <span>NOE</span></time>
+                    <time datetime="2013-10-10" class="hidden-lg">{[{post.created_time | fb_date | date:"d"}]}<span>{[{post.created_time | fb_date | date:"MMM"}]}</span></time>
                 </figure>
 
                 <div class="col-md-11 entry-content">
                     <div class="col-md-3">
-                        <img ng-if="post.picture == null" src="{{ asset("bundles/crossfita6front/pics/blog_1.jpg") }}" alt=""/>
-                        <img ng-if="post.picture != null" ng-src="{[{post.picture}]}" alt=""/>
+                        <img style="border: 2px solid black;" ng-if="post.picture == null" src="{{ asset("bundles/crossfita6front/pics/blog_1.jpg") }}" alt=""/>
+                        <img style="border: 2px solid black;" ng-if="post.picture != null" ng-src="{[{post.picture}]}" alt=""/>
                     </div>
                     <div class="col-md-9">
-                        <h1 class="entry-title"><a ng-href="post.link">{[{post.story}]}</a></h1>
+                        <h1 class="entry-title"><a target="_blank" ng-href="{[{post.link}]}">{[{post.story}]}</a></h1>
                         <div class="entry-meta">
-                            <span class="entry-categories">Posteado en: <a href="#">fitness</a>, <a href="#">crossfit</a></span>
+                            <span class="entry-categories">Posteado en: <a href="#">fitness</a>, <a href="#
+                            ">crossfit</a></span>
                             <p>{[{post.message}]}</p>
                         </div>
-                        <a class="button read-more" ng-href="{[{post.link}]}">Leer Más</a>
+                        <a class="button read-more" target="_blank" ng-href="{[{post.link}]}">Leer Más</a>
                     </div>
                 </div>
             </div>

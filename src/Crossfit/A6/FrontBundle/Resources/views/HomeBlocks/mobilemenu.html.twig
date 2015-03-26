@@ -9,6 +9,12 @@
         <li class="{% if menu == 'classes' %}current{% endif %}">
             <a href="{{ url('classes') }}">Clases y Horarios</a>
         </li>
+        <li class="{% if menu == 'crossfit' %}current{% endif %}">
+            <a href="{{ url('crossfit') }}">Crossfit</a>
+        </li>
+        <li class="{% if menu == 'gallery' %}current{% endif %}">
+            <a href="{{ url('gallery') }}">Galería</a>
+        </li>
         <li class="{% if menu == 'contact' %}current{% endif %}" >
             <a href="{{ url('contact') }}">Contacto</a>
         </li>
