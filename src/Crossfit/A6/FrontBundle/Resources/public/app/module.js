@@ -12,11 +12,9 @@ angular.module('crossfit').controller('MainCtrl', ['$scope','$log', '$http', fun
             }
         }).
             success(function(data, status, headers, config) {
-                $log.info(data);
                 $scope.fb_posts = data.data;
             }).
             error(function(data, status, headers, config) {
-                $log.info(data);
             });
     };
     $scope.getPosts();
@@ -35,7 +33,7 @@ angular.module('crossfit').controller('GalleryCtrl', ['$scope','$log', '$http', 
                 $scope.albums = data.data;
             }).
             error(function(data, status, headers, config) {
-                $log.info(data);
+
             });
     };
     $scope.getPhotosFromAlbum = function(album) {
@@ -46,11 +44,10 @@ angular.module('crossfit').controller('GalleryCtrl', ['$scope','$log', '$http', 
             }
         }).
             success(function(data, status, headers, config) {
-                $log.info(data);
                 $scope.selected_album = data.data;
             }).
             error(function(data, status, headers, config) {
-                $log.info(data);
+
             });
     };
     $scope.goToAlbum = function() {

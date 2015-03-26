@@ -7,8 +7,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2 class="col-md-3" ng-click="selected_album=null;">Galería</h2>
-                <h2 ng-click="selected_album=null;" style="color: black; cursor: pointer;" class="col-md-2 pull-right">Volver</h2>
+                <h2 ng-if="selected_album == null"  ng-click=""$parent.selected_album=null;">Galería</h2>
+                <h2 ng-if="selected_album != null" ng-click="$parent.selected_album=null;" style="color: black; cursor: pointer;">Volver</h2>
             </div>
         </div>
     </div>
