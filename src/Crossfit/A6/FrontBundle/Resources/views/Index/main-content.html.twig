@@ -14,11 +14,7 @@
                     <time datetime="2013-10-10" class="hidden-lg">{[{post.created_time | fb_date | date:"d"}]}<span>{[{post.created_time | fb_date | date:"MMM"}]}</span></time>
                 </figure>
 
-                <div class="col-md-11 entry-content">
-                    <div class="col-md-3">
-                        <img style="border: 2px solid black;" ng-if="post.picture == null" src="{{ asset("bundles/crossfita6front/pics/blog_1.jpg") }}" alt=""/>
-                        <img style="border: 2px solid black;" ng-if="post.picture != null" ng-src="{[{post.picture}]}" alt=""/>
-                    </div>
+                <div style="overflow: hidden;" class="col-md-11 entry-content">
                     <div class="col-md-9">
                         <h1 class="entry-title"><a target="_blank" ng-href="{[{post.link}]}">{[{post.story}]}</a></h1>
                         <div class="entry-meta">
@@ -26,8 +22,14 @@
                             ">crossfit</a></span>
                             <p>{[{post.message}]}</p>
                         </div>
-                        <a class="button read-more" target="_blank" ng-href="{[{post.link}]}">Leer Más</a>
+
                     </div>
+                    <div class="col-md-3">
+                        <img style="display: block;margin: auto;border: 2px solid black;" ng-if="post.picture == null" src="{{ asset("bundles/crossfita6front/pics/blog_1.jpg") }}" alt=""/>
+                        <img style="display: block;margin: auto;border: 2px solid black;" ng-if="post.picture != null" ng-src="{[{post.picture}]}" alt=""/>
+                        <a style="width:100%;text-align: center;" class="button read-more pull-right" target="_blank" ng-href="{[{post.link}]}">Leer Más</a>
+                    </div>
+
                 </div>
             </div>
         </div>
