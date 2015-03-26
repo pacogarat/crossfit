@@ -8,13 +8,13 @@
 
         <div class="col-md-12 col-lg-11">
             <div class="row entry-wrap" >
-                <figure class="col-md-1 entry-thumb">
+                <figure class="col-lg-1 entry-thumb">
                     <a ng-href="{[{post.link}]}">
                     </a>
-                    <time datetime="2013-10-10" class="hidden-lg">{[{post.created_time | fb_date | date:"d"}]}<span>{[{post.created_time | fb_date | date:"MMM"}]}</span></time>
+                    <time datetime="2013-10-10" class="hidden-md hidden-lg">{[{post.created_time | fb_date | date:"d"}]}<span>{[{post.created_time | fb_date | date:"MMM"}]}</span></time>
                 </figure>
 
-                <div style="overflow: hidden;" class="col-md-11 entry-content">
+                <div style="overflow: hidden;" class="col-lg-11 col-md-12 entry-content">
                     <div class="col-md-9">
                         <h1 class="entry-title"><a target="_blank" ng-href="{[{post.link}]}">{[{post.story}]}</a></h1>
                         <div class="entry-meta">
