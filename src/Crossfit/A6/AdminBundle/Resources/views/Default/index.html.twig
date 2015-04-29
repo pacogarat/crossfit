@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="crossfit">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Crossfit A6</title>
+
+    <link href="{{ asset('/bundles/crossfita6admin/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/bundles/crossfita6admin/css/sb-admin.css') }}" rel="stylesheet">
+    <link href="{{ asset('/bundles/crossfita6admin/css/plugins/morris.css') }}" rel="stylesheet">
+    <link href="{{ asset('/bundles/crossfita6admin/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body ng-controller="baseCtrl">
+
+<div id="wrapper">
+
+{% include('CrossfitA6AdminBundle:Blocks:menu.html.twig') %}
+
+<div id="page-wrapper">
+
+<div class="container-fluid">
+
+<!-- Page Heading -->
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">
+            Administración  {[{ test }]}
+        </h1>
+        <ol class="breadcrumb">
+            <li class="active">
+                Panel de administración de textos
+            </li>
+        </ol>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <select>
+
+                </select>
+            </div>
+            <div class="panel-body">
+                body
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- /.container-fluid -->
+
+</div>
+<!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="{{  asset('/bundles/crossfita6admin/js/jquery.js') }}"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="{{  asset('/bundles/crossfita6admin/js/bootstrap.min.js') }}"></script>
+
+<script src="{{  asset('/bundles/crossfita6admin/bower_components/angular/angular.min.js') }}"></script>
+<script src="{{  asset('/bundles/crossfita6admin/app/module.js') }}"></script>
+
+</body>
+
+</html>

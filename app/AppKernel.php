@@ -19,7 +19,7 @@ class AppKernel extends Kernel
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             //new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new Crossfit\A6\FrontBundle\CrossfitA6FrontBundle(),
-            new Crossfit\A6\BackBundle\CrossfitA6BackBundle(),
+            new Crossfit\A6\AdminBundle\CrossfitA6AdminBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

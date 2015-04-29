@@ -16,9 +16,14 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
+        $texts = $this->getDoctrine()->getManager()->getRepository('CrossfitA6FrontBundle:Text')->findBy(array(
+            'page'=>'inicio'
+        ));
         return array(
             'menu' => 'index',
-            'name' => 'crossfit');
+            'texts' => $texts,
+            'name' => 'crossfit'
+        );
     }
 
     /**
